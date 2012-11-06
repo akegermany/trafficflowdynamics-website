@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head profile="http://gmpg.org/xfn/11">
+<title>Traffic Flow Dynamics &middot; Data, Models and Simulation &middot; Springer Textbook</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<link href="css/haupt.css" type="text/css" media="screen" rel="stylesheet"/>
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+</head>
+
+<body id="intro">
+
+<!--#include file="navigation.shtml" -->
+
+<div id="wrap">
+<div id="content">
+
+<p class="p1">
+<i>Traffic Flow Dynamics: Data, Models and Simulation</i> provides a comprehensive and instructive coverage of vehicular traffic flow dynamics and modeling. It makes this fascinating interdisciplinary topic, which to date was only documented in parts by specialized monographs, accessible to a broad readership. Numerous figures and problems with solutions help the reader to quickly understand and practice the presented concepts. This book is targeted at students of physics and traffic engineering and, more generally, also at students and professionals in computer science, mathematics, and interdisciplinary topics. It also offers material for project work in programming and simulation at college and university level.</p>
+
+<p class="p1">
+The main part, after presenting different categories of traffic data, is devoted to a mathematical description of the dynamics of traffic flow, covering macroscopic models which describe traffic in terms of density, as well as microscopic many-particle models in which each particle corresponds to a vehicle and its driver. Focus chapters on traffic instabilities and model calibration/validation present these topics in a novel and systematic way.  Finally, the theoretical framework is shown at work in selected applications such as traffic-state and travel-time estimation, intelligent transportation systems, traffic operations management, and a detailed physics-based model for fuel consumption and emissions.
+</p>
+
+</div>
+
+<!--#include file="sidebar.shtml" -->
+<!--#include file="footer.shtml" -->
+
+	
+</div> <!-- end #wrap -->
+
+
+</body>
+</html>

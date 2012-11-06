@@ -1,0 +1,275 @@
+body {
+    color:#222;
+    font:100%/100% verdana,geneva,sans-serif;
+    margin:0em auto;
+    padding:0;
+    }
+
+/* ========== Header first headline ============================ */
+
+body h1 {
+    color:#000;
+    font: bold 1.4em Helvetica, Verdana;
+    letter-spacing:0.1em;
+    margin:1em auto 0.2em auto;
+    text-align:center;
+    width:80%;
+    } 
+
+/* ========== Header second headline =========================== */
+
+body h2 {color:#888;
+    text-align:center;
+    font: 1em/1.3 "Lucida Grande", Lucida, Verdana, Helvetica, sans-serif;
+    letter-spacing:0.1em;
+    margin:0em auto 1em auto;
+    }
+
+body h4 {
+    font:1.2em/100% Georgia;
+    font-style:italic;margin:0.2em 0 0 0.4em;
+    }
+	
+body h5 {color:#888;
+    font: bold 1em/1.2 "Lucida Grande", Lucida, Verdana, Helvetica, sans-serif;
+    letter-spacing:0.1em;
+    margin:0em auto 1em auto;
+    }
+
+/*body li{float:left;margin:1.5em 1em 0 0;}*/
+
+body em {
+    font-style: italic;
+    }
+
+body a {
+    color: #333366;
+    font: Verdana;
+    }
+
+body cite {
+    display: block;
+    font-size: 0.8em;
+    font-variant: normal;
+    text-align: right;
+    text-transform: capitalize;
+    font-style: italic;
+    }
+
+/*body code{font:1em/133% "courier new",courier,monospace;}*/
+
+body div.headline {
+    margin:0 auto 3em;
+    width:70em
+}
+
+
+/* ============= NAVIGATION ====================================== */
+
+#nav {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0em 0em 0em 0em;
+	list-style: none;
+	background: #fff;
+    border-color:#5A8550;
+    border-style:dotted;
+    border-width:1px 0;
+    font: 0.8em/1.4em Verdana, Helvetica, sans-serif;
+    letter-spacing:0.1em;
+	}
+
+#nav li {
+/*	float: left;*/
+	margin: 1px 1px 1px 0;
+	padding: 0;
+	}
+
+#nav li.last {
+     float:right;
+}
+
+#nav a {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0.5em 1em;
+	color: #333;
+	text-decoration: none;
+	border-bottom: none;
+	background: #fff;
+	}
+
+#nav a:hover, body#intro #t-intro a {
+    color: #555;
+	background: #fff;
+    text-decoration: underline;
+	}
+
+/* ============= Wrap ======================================== */
+
+#wrap {
+	width: 70em;
+	margin: 3em auto;
+	padding: 1em;
+	}
+
+/* ============= CONTENT ===================================== */
+
+
+#content {
+    background: no-repeat top left;
+	float: right;
+	width: 50em;
+	padding: 1em 0;
+	}
+
+#content p.p1{
+    font:1em Georgia;
+    text-indent:0em;
+    margin: 0;
+    padding:10px 45px 10px 26px;
+    line-height:1.6em;
+	}
+
+#content p {
+    font:1em Georgia;
+    text-indent:1.5em;
+    margin: 0;
+    padding:10px 45px 10px 26px;
+    line-height:1.6em;
+	}
+
+#content p.plink {
+    font:1em Georgia;
+    text-indent:0em;
+    margin: 0;
+    padding:10px 45px 10px 26px;
+    line-height:1.6em;
+	}
+
+#content p.p1:first-letter {
+	font-size: 160%;
+	font-weight: bold;
+	color: #444444;	
+	}
+
+
+#content p.questioner {
+    font-size: 100%;
+	font-weight: normal;
+    text-indent: 3em;
+    font:0.9em Tahoma;
+    margin: 0;
+    padding:5px 25px 2px 16px
+    }
+
+#content p.questioner:first-letter {
+    font-size: 100%;
+	font-weight: normal;
+    }
+
+#content a {
+	color: #333366;
+    font: Verdana;
+	}
+
+
+/* ========== SIDEBAR =========================================== */
+
+
+#sidebar a.image {
+	color:#fff;
+	}
+
+#sidebar a {
+	color: #333366;
+    font: Verdana;
+	}
+
+#sidebar p.alt {
+	margin: 0 0 1em 0;
+    padding: 0 0 0 1.5em;
+    width: 22em;
+    font: Verdana;
+  	font-size: 85%;
+  	line-height: 1.5em;
+  	color: #333366;
+	}
+
+#sidebar {
+  	float: left;
+  	width: 20em;
+  	padding: 10px 0;
+  	background: no-repeat top left;
+  	}
+
+#sidebar p {
+    font: Verdana;
+  	font-size: 85%;
+}
+
+#sidebar dl {
+    overflow:hidden;
+  	width: 15em;
+  	margin: 26px 0px;
+  	padding: 0;
+  	}
+
+#sidebar dt {
+  	float: right;
+  	width: 12.5em;
+  	margin: 0;
+  	padding: 0;
+  	font-size: 120%;
+  	letter-spacing: 1px;
+  	color: #627081;
+  	}
+#sidebar dd {
+  	margin: 0 0 1em 8em;
+  	padding: 0;
+  	font-size: 85%;
+  	line-height: 1.5em;
+  	color: #333366;
+  	}
+#sidebar dl dd.img {
+   	margin: 0;
+   	}
+#sidebar dd.img img {
+  	float: left;
+  	margin: 0 8px 0 0;
+  	padding: 4px;
+  	border: 1px solid #D9E0E6;
+  	border-bottom-color: #C8CDD2;
+  	border-right-color: #C8CDD2;
+  	background: #fff;
+  	}
+
+#sidebar .alt dt {
+  	float: left;
+  	}
+#sidebar .alt dd {
+  	margin: 0 4em 0 0;
+  	}
+#sidebar .alt dd.img img {
+  	float: right;
+  	margin: 0 0 0 8px;
+  	}
+
+
+/* ============ FOOTER ========================================= */
+
+#footer {
+	clear: both;
+    font: 85%/100% Helvetica;
+	padding: 0.2em;
+	text-align: center;
+	color: #fff;
+	background: #666666;
+	}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+    }

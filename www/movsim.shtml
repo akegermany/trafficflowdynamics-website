@@ -1,0 +1,58 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head profile="http://gmpg.org/xfn/11">
+<title>Traffic Flow Dynamics &middot; Data, Models and Simulation &middot; Springer Textbook</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<link href="css/haupt.css" type="text/css" media="screen" rel="stylesheet">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+                                                                                                                                                               
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25691702-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ </head>
+                                                                                                                                                                <body>
+                                                                                                                                                                
+                                                                                                                                                                <!--#include file="navigation.shtml" -->
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                <div id="wrap">
+                                                                                                                                                                        
+                                                                                                                                                                    	    <div id="content">
+                                                                                                                                                                    	                <p class="p1">
+                                                                                                                                                                    	                Das Applet unter 'interaktive Simulation' benutzt die MovSim Bibliothek. MovSim steht für: multi-model open-source vehicular-traffic simulator.
+                                                                                                                                                                    	                MovSim ist in der Programmiersprache Java geschrieben und ein Open Source Projekt. Der Code ist für jeden verfügbar bei Github.</p>
+                                                                                                                                                                    	                
+                                                                                                                                                                    	                <p class="plink">
+                                                                                                                                                                    	                <a href="https://github.com/movsim">MovSim bei Github</a>
+                                                                                                                                                                    	                <br />
+                                                                                                                                                                    	                </p>
+                                                                                                                                                                    	                <p class="p1">
+                                                                                                                                                                    	                git://github.com/movsim/movsim.git
+                                                                                                                                                                    	                </p>                                                                                                                                                                	                </p>
+                                                                                                                                                                    	                <!-- 
+                                                                                                                                                                    	                            <p class="p1"><img src="img/faqs.jpg" align="left" width="60" alt="Foto">&#8222;In welcher Programmiersprache wurde der Simulator geschrieben?&#8221;</p>
+                                                                                                                                                                    	                                        <p class="questioner">&#8212; </p>
+                                                                                                                                                                    	                                                    <p class="p2">Der Simulator wurde in Java programmiert. Ausgangspunkt war ein Simulator von Martin Treiber in C++, der von Arne Kesting nach Java portiert wurde. Der Simulator ist Open-Source.</p>
+                                                                                                                                                                    	                                                                <p class="questioner">&#8212; Ralph</p> 
+                                                                                                                                                                    	                                                                -->	           
+                                                                                                                                                                    	                                                            	    </div>
+                                                                                                                                                                    	                                                            		
+                                                                                                                                                                    	                                                            		
+                                                                                                                                                                    	                                                            		<!--#include file="sidebar.shtml" -->
+                                                                                                                                                                    	                                                            		<!--#include file="footer.shtml" -->
+                                                                                                                                                                    	                                                            		
+                                                                                                                                                                    	                                                            		    
+                                                                                                                                                                    	                                                            		    </div> <!-- end #wrap -->
+                                                                                                                                                                    	                                                            		    
+                                                                                                                                                                    	                                                            		    </body>
+                                                                                                                                                                    	                                                            		    </html>

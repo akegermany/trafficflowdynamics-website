@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head profile="http://gmpg.org/xfn/11">
+<title>Traffic Flow Dynamics &middot; Data, Models and Simulation &middot; Springer Textbook</title>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Traffic flow Dynamics: Data, Models and Simulation. Martin Treiber and Arne Kesting" />
+<meta name="keywords" content="traffic, traffic flow, traffic flow dynamics, traffic simulation, simulation, traffic jam, traffic congestion, traffic modeling, microscopic traffic model, macroscopic traffic model, textbook, movsim.org, Martin Treiber, Arne Kesting, Springer" />
+
+<link href="css/haupt.css" type="text/css" media="screen" rel="stylesheet"/>
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
+<script type="text/javascript"> <!--
+    function UnCryptMailto( s )
+    {
+        var n = 0;
+        var r = "";
+        for( var i = 0; i < s.length; i++)
+        {
+            n = s.charCodeAt( i );
+            if( n >= 8364 )
+            {
+                n = 128;
+            }
+            r += String.fromCharCode( n - 1 );
+        }
+        return r;
+    }
+
+    function linkTo_UnCryptMailto( s )
+    {
+        location.href=UnCryptMailto( s );
+    }
+    // --> </script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25691702-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body id="intro">
+
+<!--#include file="navigation.shtml" -->
+
+
+<div id="wrap">
+
+<div id="content">
+
+<p>
+<ul>
+<li>First comprehensive textbook of this fascinating interdisciplinary topic which explains advances in a way that it is easily accessible to engineering, physics and math students</li>
+<li>Presents practical applications of traffic theory such as driving behavior, stability analysis, stop-and-go waves, and travel time estimation</li>
+<li>Presents the topic in a novel and systematic way by addressing both microscopic and macroscopic models with a focus on traffic instabilities</li>
+<li>Revised and extended edition of the German textbook <a href="http://www.verkehrsdynamics.de">Verkehrsdynamik und -simulation</a></li>
+</ul>
+</p>
+
+<p><a href="about.shtml">... more information about the textbook.</a></p>
+
+<p class="p1">
+We appreciate feedback and hints to mistakes in the book per email. A list of <a href="res/ErrataTrafficFlowDynamics.pdf">errata</a> will continuously updated.</p>
+
+<p class="plink">
+<a href="javascript:linkTo_UnCryptMailto('nbjmup;usfjcfsAwxj/uv.esftefo/ef');">treiber@vwi.tu-dresden.de</a> and <a href="javascript:linkTo_UnCryptMailto('nbjmup;nbjmAblftujoh/ef');">mail@akesting.de</a>
+</p>
+</div>
+
+		
+
+<!--#include file="sidebar.shtml" -->
+<!--#include file="footer.shtml" -->
+
+	
+</div> <!-- end #wrap -->
+
+
+</body>
+</html>
