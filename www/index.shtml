@@ -58,19 +58,22 @@
 
 <div id="content">
 
-<p>
-<ul>
-<li>First comprehensive textbook of this fascinating interdisciplinary topic which explains advances in a way that it is easily accessible to engineering, physics and math students</li>
-<li>Presents practical applications of traffic theory such as driving behavior, stability analysis, stop-and-go waves, and travel time estimation</li>
-<li>Presents the topic in a novel and systematic way by addressing both microscopic and macroscopic models with a focus on traffic instabilities</li>
-<li>Revised and extended edition of the German textbook <a href="http://www.verkehrsdynamics.de">Verkehrsdynamik und -simulation</a></li>
-</ul>
+<p class="p1">
+This is the first comprehensive textbook of this fascinating interdisciplinary topic which explains advances in a way that it is easily accessible to engineering, physics and math students.
 </p>
 
-<p><a href="about.shtml">... more information about the textbook.</a></p>
+<p class="p1">
+It presents practical applications of traffic theory such as driving behavior, stability analysis, stop-and-go waves, and travel time estimation. 
+These topics are presented in a novel and systematic way by addressing both microscopic and macroscopic models with a focus on traffic instabilities.
+</p>
 
 <p class="p1">
-We appreciate feedback and hints to mistakes in the book per email. A list of <a href="res/ErrataTrafficFlowDynamics.pdf">errata</a> will continuously updated.</p>
+This textbook is a revised and extended edition of the German textbook <a href="http://www.verkehrsdynamics.de">Verkehrsdynamik und -simulation</a>.
+<a href="about.shtml">Find out more about the book.</a>
+</p>
+
+<p class="p1">
+We appreciate feedback and hints to mistakes in the book per email. A list of <a href="res/ErrataTrafficFlowDynamics.pdf">errata</a> will continuously be updated.</p>
 
 <p class="plink">
 <a href="javascript:linkTo_UnCryptMailto('nbjmup;usfjcfsAwxj/uv.esftefo/ef');">treiber@vwi.tu-dresden.de</a> and <a href="javascript:linkTo_UnCryptMailto('nbjmup;nbjmAblftujoh/ef');">mail@akesting.de</a>
