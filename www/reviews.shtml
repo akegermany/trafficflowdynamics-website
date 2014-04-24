@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head profile="http://gmpg.org/xfn/11">
+	
+<title>Traffic Flow Dynamics &middot; Data, Models and Simulation &middot; Springer Textbook</title>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Traffic flow Dynamics: Data, Models and Simulation. Martin Treiber and Arne Kesting" />
+<meta name="keywords" content="traffic, traffic flow, traffic flow dynamics, traffic simulation, simulation, traffic jam, traffic congestion, traffic modeling, microscopic traffic model, macroscopic traffic model, textbook, movsim.org, Martin Treiber, Arne Kesting, Springer" />
+
+<link href="css/haupt.css" type="text/css" media="screen" rel="stylesheet">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
+</head>
+
+<body>
+
+<!--#include file="navigation.shtml" -->
+
+
+<div id="wrap">
+	
+	<div id="content">
+	
+	   <h5><a href="http://dx.doi.org/10.1063/PT.3.2314">Physics Today 67(3), 54 (2014)</a></h5>
+	   
+	   <blockquote>
+		   <p>Many governments around the world view traffic jams as a serious problem. Vehicles in traffic jams emit higher concentrations of pollutants, and the people in those vehicles waste valuable time. For those reasons traffic-flow research should be advanced. The knowledge gained could help increase flow and reduce jams, which would lead to improved efficiencies and a cleaner environment. But is such research physics? I think that after reading Martin Treiber and Arne Kesting’s Traffic Flow Dynamics: Data, Models and Simulation, you will agree that it is. [...] </p>
+
+           <p>[...] It’s a pity that there’s currently a big gap between traffic-flow science and traffic engineering, but this book admirably connects the physical mechanisms leading to a traffic jam with such engineered solutions as adaptive cruise control and ramp metering. [...]</p>
+
+		   <p>[...] I expect that <em>Traffic Flow Dynamics</em> will bridge the different fields involved - physics, mathematics, computer science, traffic engineering, and others. I also think it will be a useful guide for students who want to make the jump into a fascinating area of research.</p>
+           <cite>&#8212; Katsuhiro Nishinari, applied mathematician and a professor at the University of Tokyo in Japan</cite>
+        </blockquote> 
+
+
+
+<!--
+		<h5><a href="http://www.amazon.de/Verkehrsdynamik-simulation-Anwendungen-Verkehrsflussdynamik-Springer-Lehrbuch/dp/3642052274/ref=sr_1_4?ie=UTF8&s=books&qid=1273235393&sr=1-4">Rezensionen auf Amazon.de</a></h5>
+
+        <p class="questioner">Vielen Dank!</p> 
+        
+        -->
+
+<!--
+<blockquote>
+            <cite>&#8212; Winston Churchill, 1954</cite>
+        </blockquote>          -->
+        
+	</div>
+		
+
+<!--#include file="sidebar.shtml" -->
+<!--#include file="footer.shtml" -->
+
+
+	
+</div> <!-- end #wrap -->
+
+
+</body>
+</html>
