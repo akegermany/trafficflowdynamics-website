@@ -1,41 +1,92 @@
-\documentclass[11pt,a4paper]{scrartcl}
+%Siehe auch Errata.txt
+
+%\documentclass[11pt,a4paper]{scrartcl}
+\documentclass[11pt,a4paper]{scrreprt}
 \usepackage[ngerman]{babel}
 \usepackage{units,booktabs}
 \usepackage[dvips]{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath, amssymb}
 
-\providecommand{\gquote}[1]{`#1'}
-\providecommand{\abl}[2]   {\frac{\D #1}{\D #2}}  % =\abltot
-\providecommand{\ablpart}[2]{\frac{\partial #1}{\partial #2}}  %d(#1)/d(#2)
-\providecommand{\hats}{\hat{s}}
-\renewcommand{\abl}[2]{\frac{{\rm d} #1}{{\rm d} #2}}  % =\abltot
+%\include{LocalDefs}  %% eigene command definitionen (AK)
+
+\providecommand{\be}{\begin{equation}}
+\providecommand{\ee}{\end{equation}}
+\providecommand{\bea}{\begin{eqnarray}}
+\providecommand{\eea}{\end{eqnarray}}
 \providecommand{\bdm}{\begin{displaymath}}
 \providecommand{\edm}{\end{displaymath}}
-\providecommand{\3}{{\ss}}
+\providecommand{\bdma}{\begin{eqnarray*}}
+\providecommand{\edma}{\end{eqnarray*}}
 
+\providecommand{\bfsf}[1]{{\large\sf\textbf{#1}}}
+\providecommand{\secfont}[1]{{\Large\sf\textbf{#1}}}
+
+%\providecommand{\gquote}[1]{\glqq #1\grqq}  %german,left/right,2xquote
+
+\providecommand{\hats}{\hat{s}}
+\providecommand{\abl}[2]{\frac{{\rm d} #1}{{\rm d} #2}}  % =\abltot
+\providecommand{\sub}[1]{_{\text{{\scriptsize \hspace{-0.2ex}#1}}}}
 %% Koma-Headings
 \usepackage[komastyle,automark,autooneside,headsepline]{scrpage2}
 \pagestyle{scrheadings}
 \setkomafont{pagehead}{\normalfont} %\sffamily}  %\bfseries
 \setkomafont{pagenumber}{\normalfont\rmfamily} %%\slshape}
-\markboth{Errata for \gquote{Traffic Flow Dynamics}}{Website www.traffic-flow-dynamics.org}
+%\markboth{Errata of the textbook \gquote{Traffic Flow Dynamics --
+%    Data, Models, and Simulation}}
 
-\title{Errata for the book\\\gquote{Traffic Flow Dynamics}}
-\author{Martin Treiber und Arne Kesting}
-\date{October 2012}
 \begin{document}
-\maketitle
-%\gquote{test} $\abl{a}{b}$
+\begin{center}
+\secfont{Errata of the textbook\\[0.3em]
+``Traffic Flow Dynamics --  Data, Models, and Simulation''}
+\\[1em]
 
-\emph{Remark:}
-No errors found so far.
+Martin Treiber und Arne Kesting
+\\[1em]
 
-%\begin{itemize}
-%\item
-%\textbf{Kap. 6.1, Seite 51:}
-%In den 1990er, nicht 1930er Jahren f\"uhrte eine gesteigerte Rechenleistung ... zu verst\"arkten Aktivit\"aten [Auf dem Gebiet der   Verkehrsdynamik]
-%\end{itemize}
+\today
+\end{center}
+\vspace{1em}
+
+
+In the following, we list only errors relating to the content.
+
+%SIEHE auch README_TODO
+
+\begin{itemize}
+
+\item
+\textbf{Chapter 9.5, page 146:}
+There are sign errors in Equation (9.31): The correct equation reads
+\setcounter{chapter}{9}
+\setcounter{equation}{30}
+\be
+S\sub{inh}=-\frac{Q^2}{\rho I} \abl{I}{x}
++\frac{Q \nu\sub{rmp}}{\rho}+\rho A\sub{rmp}.
+\ee
+
+\item \textbf{Solutions to Problem 9.5, page 455:}
+In the last equation of this solution, there are sign errors related to that of Chapter
+9.5: The right-hand side of this equation should read
+\bdm
+\frac{\rho V^*\sub{e}-Q}{\tau} -\frac{Q^2}{\rho I} \abl{I}{x}
++\frac{Q \nu\sub{rmp}}{\rho}+\rho A\sub{rmp}.
+\edm
+
+%\item \textbf{Chapter 9.5.4, page 148:}
+%``\textit{velocity!characteristic}'' should read ``characteristic
+%velocity''.
+
+\item \textbf{Table 11.2, page 190:}
+The typical parameter values of this table are valid for cars, only. On freeways/highways, trucks (and
+their drivers) are characterized by a desired speed of
+\unit[80]{km/h}. In any scenario, the time-gap parameter of  trucks is
+ of the order of \unit[2]{s}, and the 
+acceleration and comfortable deceleration parameters are somewhat
+lower than that for cars.
+
+
+\end{itemize}
 
 \end{document}
 
