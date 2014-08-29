@@ -1,33 +1,33 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.12.29)  29 APR 2014 17:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.6.15)  29 AUG 2014 15:14
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **./ErrataTrafficFlowDynamics
 (./ErrataTrafficFlowDynamics.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2009/07/24 v3.04a KOMA-Script document class (report)
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent 
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2013/12/19 v3.12 KOMA-Script document class (report)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
-
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2009/03/25 v3.03 KOMA-Script package (loading files)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
 
-Package scrlfile, 2009/03/25 v3.03 KOMA-Script package (loading files)
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/usr/share/texmf-texlive/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
+))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -38,22 +38,25 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
-Package scrreprt Info: You've used obsolete option `11pt'.
-(scrreprt)             \KOMAExecuteOptions{fontsize=11pt} will be
-(scrreprt)             used instead.
-(scrreprt)             You may simply replace `11pt'
-(scrreprt)             by `fontsize=11pt'.
+Package tocbasic Info: defining new hook before heading of `' on input line 112
+3.
+Package scrreprt Info: You've used standard option `11pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=11pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=11pt' there
+(scrreprt)             instead of `11pt', too.
 Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
-ine 1271.
+ine 1655.
 
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2009/07/24 v3.04a KOMA-Script font size class option (11p
-t)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
 )
-(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
-Package: typearea 2009/07/24 v3.04a KOMA-Script package (type area)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
 
-Package typearea, 2009/07/24 v3.04a KOMA-Script package (type area)
+Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -61,13 +64,14 @@ Package typearea, 2009/07/24 v3.04a KOMA-Script package (type area)
 \ta@div=\count79
 Package typearea Info: You've used standard option `a4paper'.
 (typearea)             This is correct!
-(typearea)             Internaly I'm using `paper=a4'.
+(typearea)             Internally I'm using `paper=a4'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
 (typearea)             you'd have to use `paper=a4' there
 (typearea)             instead of `a4paper', too.
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
+\footheight=\skip45
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 0.0pt
@@ -82,9 +86,9 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.60002pt
+(typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1115.
+(typearea)              on input line 1330.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -93,282 +97,267 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count84
 \c@paragraph=\count85
 \c@subparagraph=\count86
-\abovecaptionskip=\skip45
-\belowcaptionskip=\skip46
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
 \c@pti@nb@sid@b@x=\box26
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) (/usr/share/texmf-texlive/tex/generic/babel/babel.sty
-Package: babel 2008/07/06 v3.8l The Babel package
-
-(/usr/share/texmf-texlive/tex/generic/babel/ngermanb.ldf
-Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
-
-(/usr/share/texmf-texlive/tex/generic/babel/babel.def
-File: babel.def 2008/07/06 v3.8l Babel common definitions
-\babel@savecnt=\count89
-\U@D=\dimen103
-)
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `ngerman'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@ngerman = a dialect from \language0
-\l@naustrian = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 92.
-)) (/usr/share/texmf-texlive/tex/latex/units/units.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/units/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 
 (/home/kesting/tex/inputs/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texmf-texlive/tex/latex/units/nicefrac.sty
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip47
-\L@UnitsRaiseTextstyle=\skip48
-\L@UnitsRaiseScriptstyle=\skip49
+\L@UnitsRaiseDisplaystyle=\skip48
+\L@UnitsRaiseTextstyle=\skip49
+\L@UnitsRaiseScriptstyle=\skip50
 ))
-(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen104
-\lightrulewidth=\dimen105
-\cmidrulewidth=\dimen106
-\belowrulesep=\dimen107
-\belowbottomsep=\dimen108
-\aboverulesep=\dimen109
-\abovetopsep=\dimen110
-\cmidrulesep=\dimen111
-\cmidrulekern=\dimen112
-\defaultaddspace=\dimen113
-\@cmidla=\count90
-\@cmidlb=\count91
-\@aboverulesep=\dimen114
-\@belowrulesep=\dimen115
-\@thisruleclass=\count92
-\@lastruleclass=\count93
-\@thisrulewidth=\dimen116
+\heavyrulewidth=\dimen103
+\lightrulewidth=\dimen104
+\cmidrulewidth=\dimen105
+\belowrulesep=\dimen106
+\belowbottomsep=\dimen107
+\aboverulesep=\dimen108
+\abovetopsep=\dimen109
+\cmidrulesep=\dimen110
+\cmidrulekern=\dimen111
+\defaultaddspace=\dimen112
+\@cmidla=\count89
+\@cmidlb=\count90
+\@aboverulesep=\dimen113
+\@belowrulesep=\dimen114
+\@thisruleclass=\count91
+\@lastruleclass=\count92
+\@thisrulewidth=\dimen115
 )
-(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode not detected.
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
-Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
-O)
-
-(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
-Package: xcolor-patch 2009/10/02 xcolor patch
-))
-\@linkdim=\dimen117
-\Hy@linkcounter=\count94
-\Hy@pagecounter=\count95
-
-(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-)
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)
-(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
-t (HO)
-))
-Package hyperref Info: Hyper figures OFF on input line 2975.
-Package hyperref Info: Link nesting OFF on input line 2980.
-Package hyperref Info: Hyper index ON on input line 2983.
-Package hyperref Info: Plain pages OFF on input line 2990.
-Package hyperref Info: Backreferencing OFF on input line 2995.
-
-Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 3191.
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 3428.
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
-Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
-Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
- (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
-)
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-)))
-\Fld@menulength=\count96
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen116
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count95
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count96
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen117
+\Fld@menulength=\count97
 \Field@Width=\dimen118
 \Fld@charsize=\dimen119
-\Field@toks=\toks15
-Package hyperref Info: Hyper figures OFF on input line 4377.
-Package hyperref Info: Link nesting OFF on input line 4382.
-Package hyperref Info: Hyper index ON on input line 4385.
-Package hyperref Info: backreferencing OFF on input line 4392.
-Package hyperref Info: Link coloring OFF on input line 4397.
-Package hyperref Info: Link coloring with OCG OFF on input line 4402.
-Package hyperref Info: PDF/A mode OFF on input line 4407.
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
 )
-\Hy@abspage=\count97
-\c@Item=\count98
-\c@Hfootnote=\count99
-)
-*hyperref using driver hdvips*
-(/usr/share/texmf-texlive/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2009/10/09 v6.79a Hyperref driver for dvips
 
-(/usr/share/texmf-texlive/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2009/10/09 v6.79a Hyperref definitions for pdfmark specials
-\pdf@docset=\toks16
+Package hyperref Message: Driver: hdvips.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks15
 \pdf@box=\box27
-\pdf@toks=\toks17
-\pdf@defaulttoks=\toks18
-\Fld@listcount=\count100
+\pdf@toks=\toks16
+\pdf@defaulttoks=\toks17
+\HyField@AnnotCount=\count101
+\Fld@listcount=\count102
+\c@bookmark@seq@number=\count103
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip51
 ))
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: dvips.def on input line 91.
 
-(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
 File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip50
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks19
+\@emptytoks=\toks18
 \ex@=\dimen122
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen123
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count101
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count102
-\leftroot@=\count103
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count104
-\DOTSCASE@=\count105
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+\inf@bad=\count104
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count105
+\leftroot@=\count106
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count107
+\DOTSCASE@=\count108
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box28
 \strutbox@=\box29
 \big@size=\dimen124
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count106
-\c@MaxMatrixCols=\count107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
 \dotsspace@=\muskip11
-\c@parentequation=\count108
-\dspbrk@lvl=\count109
-\tag@help=\toks20
-\row@=\count110
-\column@=\count111
-\maxfields@=\count112
-\andhelp@=\toks21
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks19
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks20
 \eqnshift@=\dimen125
 \alignsep@=\dimen126
 \tagshift@=\dimen127
 \tagwidth@=\dimen128
 \totwidth@=\dimen129
 \lineht@=\dimen130
-\@envbody=\toks22
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+\@envbody=\toks21
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2009/06/22 v3.00
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texmf-texlive/tex/latex/koma-script/scrpage2.sty
-Package: scrpage2 2008/12/08 v2.3 LaTeX2e KOMA-Script package
-LaTeX Info: Redefining \pagemark on input line 176.
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2013/12/19 v3.12 KOMA-Script package (page head and foot)
+LaTeX Info: Redefining \pagemark on input line 174.
 )
-Class scrreprt Info: You've told me to redefine the font selection of the
-(scrreprt)           element `pagehead' that is an alias of element
-(scrreprt)           `pageheadfoot' on input line 33.
+Package scrkbase Info: You've told me to redefine the font selection of the
+(scrkbase)             element `pagehead' that is an alias of element
+(scrkbase)             `pageheadfoot' on input line 33.
 
 
-Class scrreprt Warning: `pagehead' is only an alias of `pageheadfoot'.
-(scrreprt)              Font of page foot may also be changed on input line 33.
-
+Package scrkbase Warning: `pagehead' is only an alias of `pageheadfoot'.
+(scrkbase)                Font of page foot may also be changed on input line 3
+3.
 
 (./ErrataTrafficFlowDynamics.aux)
 \openout1 = `ErrataTrafficFlowDynamics.aux'.
@@ -387,51 +376,142 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
+\AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring OFF on input line 38.
 
-(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
-Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
-Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count113
+\c@section@level=\count116
 )
 LaTeX Info: Redefining \ref on input line 38.
 LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (./ErrataTrafficFlowDynamics.out) (./ErrataTrafficFlowDynamics.out)
 \@outlinefile=\write3
 \openout3 = `ErrataTrafficFlowDynamics.out'.
 
-\AtBeginShipoutBox=\box30
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
 
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+
+Class scrreprt Warning: Usage of deprecated font command `\sf'!
+(scrreprt)              You should note, that in 1994 font command `\sf' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\sf' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\sf' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\sf'
+(scrreprt)              by `\normalfont \sffamily ' on input line 41.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
 LaTeX Font Info:    Try loading font information for U+msa on input line 63.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 63.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Class scrreprt Warning: Usage of deprecated font command `\rm'!
+(scrreprt)              You should note, that in 1994 font command `\rm' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\rm' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrreprt)              by `\mathrm ' on input line 76.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\rm'!
+(scrreprt)              You should note, that in 1994 font command `\rm' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\rm' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrreprt)              by `\mathrm ' on input line 76.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\rm'!
+(scrreprt)              You should note, that in 1994 font command `\rm' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\rm' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrreprt)              by `\mathrm ' on input line 84.
+
+
+Class scrreprt Warning: Usage of deprecated font command `\rm'!
+(scrreprt)              You should note, that in 1994 font command `\rm' has
+(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
+(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrreprt)              shouldn't use such commands any longer and within
+(scrreprt)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrreprt)              See `fntguide.pdf' for more information about
+(scrreprt)              recommended font commands.
+(scrreprt)              Note also, that KOMA-Script will remove the definition
+(scrreprt)              of `\rm' anytime until release of about version 3.20.
+(scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrreprt)              by `\mathrm ' on input line 84.
+
+
+Overfull \hbox (1.38469pt too wide) in paragraph at lines 109--110
+[]\OT1/cmr/m/n/10 50km/h/80km/h| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--118
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+[1
 
 ]
-(./ErrataTrafficFlowDynamics.aux) ) 
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+ (./ErrataTrafficFlowDynamics.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package rerunfilecheck Info: File `ErrataTrafficFlowDynamics.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+ ) 
 Here is how much of TeX's memory you used:
- 6489 strings out of 495062
- 93740 string characters out of 1182643
- 198018 words of memory out of 3000000
- 9560 multiletter control sequences out of 15000+50000
- 9495 words of font info for 36 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 43i,9n,43p,289b,315s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 7239 strings out of 495029
+ 108423 string characters out of 6181523
+ 243065 words of memory out of 5000000
+ 10382 multiletter control sequences out of 15000+600000
+ 11194 words of font info for 44 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 40i,10n,51p,264b,324s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ErrataTrafficFlowDynamics.dvi (1 page, 4344 bytes).
+Output written on ErrataTrafficFlowDynamics.dvi (1 page, 6212 bytes).
