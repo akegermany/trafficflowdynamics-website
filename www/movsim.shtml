@@ -20,39 +20,30 @@
 
 </script>
  </head>
-                                                                                                                                                                <body>
-                                                                                                                                                                
-                                                                                                                                                                <!--#include file="navigation.shtml" -->
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                <div id="wrap">
-                                                                                                                                                                        
-                                                                                                                                                                    	    <div id="content">
-                                                                                                                                                                    	                <p class="p1">
-                                                                                                                                                                    	                Das Applet unter 'interaktive Simulation' benutzt die MovSim Bibliothek. MovSim steht für: multi-model open-source vehicular-traffic simulator.
-                                                                                                                                                                    	                MovSim ist in der Programmiersprache Java geschrieben und ein Open Source Projekt. Der Code ist für jeden verfügbar bei Github.</p>
-                                                                                                                                                                    	                
-                                                                                                                                                                    	                <p class="plink">
-                                                                                                                                                                    	                <a href="https://github.com/movsim">MovSim bei Github</a>
-                                                                                                                                                                    	                <br />
-                                                                                                                                                                    	                </p>
-                                                                                                                                                                    	                <p class="p1">
-                                                                                                                                                                    	                git://github.com/movsim/movsim.git
-                                                                                                                                                                    	                </p>                                                                                                                                                                	                </p>
-                                                                                                                                                                    	                <!-- 
-                                                                                                                                                                    	                            <p class="p1"><img src="img/faqs.jpg" align="left" width="60" alt="Foto">&#8222;In welcher Programmiersprache wurde der Simulator geschrieben?&#8221;</p>
-                                                                                                                                                                    	                                        <p class="questioner">&#8212; </p>
-                                                                                                                                                                    	                                                    <p class="p2">Der Simulator wurde in Java programmiert. Ausgangspunkt war ein Simulator von Martin Treiber in C++, der von Arne Kesting nach Java portiert wurde. Der Simulator ist Open-Source.</p>
-                                                                                                                                                                    	                                                                <p class="questioner">&#8212; Ralph</p> 
-                                                                                                                                                                    	                                                                -->	           
-                                                                                                                                                                    	                                                            	    </div>
-                                                                                                                                                                    	                                                            		
-                                                                                                                                                                    	                                                            		
-                                                                                                                                                                    	                                                            		<!--#include file="sidebar.shtml" -->
-                                                                                                                                                                    	                                                            		<!--#include file="footer.shtml" -->
-                                                                                                                                                                    	                                                            		
-                                                                                                                                                                    	                                                            		    
-                                                                                                                                                                    	                                                            		    </div> <!-- end #wrap -->
-                                                                                                                                                                    	                                                            		    
-                                                                                                                                                                    	                                                            		    </body>
-                                                                                                                                                                    	                                                            		    </html>
+<body>
+
+<!--#include file="navigation.shtml" -->
+
+
+<div id="wrap">
+        
+<div id="content">
+<p class="p1">
+MovSim is a <i>M</i>ulti-model <i>o</i>pen-source <i>v</i>ehicular-traffic <i>Sim</i>ulator. 
+
+<p>
+The simulator implements various car-following models of different model categories like time-continuous models, iterated maps and cellular automata. 
+MovSim is providing reference implementations for the models described in the textbook "Traffic Flow Dynamics". 
+
+<p>
+More information about MovSim can be found on  <a href="http://movsim.org">movsim.org</a> and on <a href="https://github.com/movsim">Github</a>. 
+</div>
+
+<!--#include file="sidebar.shtml" -->
+<!--#include file="footer.shtml" -->
+
+
+</div> <!-- end #wrap -->
+
+</body>
+</html>
