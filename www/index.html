@@ -12,8 +12,9 @@
 
   <link rel="shortcut icon" href="img/favicon.ico">    
   
-  <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css"> 
-  <link href="./css/Montserrat.css" rel="stylesheet" type="text/css"> 
+  <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="./css/glyphicons.css" rel="stylesheet" type="text/css">
+  <link href="./css/Montserrat.css" rel="stylesheet" type="text/css">
   <link href="./css/Lato.css" rel="stylesheet" type="text/css">
   <!--    .container {     max-width: 576px;   } -->
 
@@ -67,24 +68,24 @@
       height: 75%;
       margin-bottom: 10px;
   }
-  .carousel-control.right, .carousel-control.left {
+  .carousel-control-prev, .carousel-control-next {
       background-image: none;
       color: #0e134b;
   }
-  .carousel-indicators li {
+  .carousel-indicators button {
       border-color: #0e134b;
   }
-  .carousel-indicators li.active {
+  .carousel-indicators button.active {
       background-color: #0e134b;
   }
-  .item h4 {
+  .carousel-item h4 {
       font-size: 19px;
       line-height: 1.375em;
       font-weight: 400;
       font-style: italic;
       margin: 70px 0;
   }
-  .item span {
+  .carousel-item span {
       font-style: normal;
   }
   .panel {
@@ -202,7 +203,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
@@ -282,44 +283,44 @@
   <a class="btn btn-link" href="https://www.amazon.com/Traffic-Flow-Dynamics-Models-Simulation/dp/3642324592" role="button">Reviews on amazon.com</a></p>
 
   <!-- deactivated: slide -->
-  <div id="reviewCarousel" class="carousel  text-center" data-ride="carousel">
+  <div id="reviewCarousel" class="carousel slide text-center" data-bs-ride="carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#reviewCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#reviewCarousel" data-slide-to="1"></li>
-      <li data-target="#reviewCarousel" data-slide-to="2"></li>
-      <li data-target="#reviewCarousel" data-slide-to="3"></li>
-    </ol>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#reviewCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
+      <div class="carousel-item active">
         <h4>"... it will be a useful guide for students who want to make the jump into a fascinating area of research."
         <br><span>Katsuhiro Nishinari, University of Tokyo, Japan</span></h4>
       </div>
-      <div class="item">
+      <div class="carousel-item">
         <h4>"... written by authors currently working at the forefront of traffic flow dynamics research and development."
         <br><span>Jon W. Mooney, Noise Control Engineering Journal</span></h4>
       </div>
-      <div class="item">
+      <div class="carousel-item">
         <h4>"... there's currently a big gap between traffic-flow science and traffic engineering, but this book admirably connects the physical mechanisms leading to a traffic jam with such engineered solutions."
         <br><span>Katsuhiro Nishinari, University of Tokyo, Japan</span></h4>
       </div>
-      <div class="item">
+      <div class="carousel-item">
         <h4>"... I recommend <i>Traffic Flow Dynamics</i> as a very thorough textbook and reference for those in the transportation sciences field."
         <br><span>Jon W. Mooney, Noise Control Engineering Journal</span></h4>
       </div>
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#reviewCarousel" role="button" data-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#reviewCarousel" role="button" data-slide="next">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </div>
 
