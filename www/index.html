@@ -153,6 +153,21 @@
       margin-bottom: 20px;
       color: #003c7b;
   }
+  .edition-badge-top {
+      font-size: 18px;
+      font-weight: 700;
+      padding: 12px 24px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4);
+      border-radius: 30px;
+      display: inline-block;
+  }
+  .edition-badge-top small {
+      font-size: 14px;
+      font-weight: 600;
+      opacity: 0.9;
+  }
   .slideanim {visibility:hidden;}
   .slide {
       animation-name: slide;
@@ -224,7 +239,12 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Traffic Flow Dynamics</h1> 
+  <div class="mb-3">
+    <span class="badge bg-danger edition-badge-top">
+      2nd Edition <small class="ms-2">2025</small>
+    </span>
+  </div>
+  <h1>Traffic Flow Dynamics</h1>
   <h3>Data, Models and Simulation</h3> 
   <p>by <i>Martin Treiber</i> and <i>Arne Kesting</i></p>
   <br>  
