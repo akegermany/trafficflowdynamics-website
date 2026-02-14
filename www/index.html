@@ -168,6 +168,31 @@
       font-weight: 600;
       opacity: 0.9;
   }
+  /* Max width for better readability on wide screens */
+  #about > .row,
+  #samples > .row,
+  #errata > .row,
+  #authors > .row,
+  #simulation > .row,
+  #contact > .row {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #reviews {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .jumbotron {
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  .jumbotron > * {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
   .slideanim {visibility:hidden;}
   .slide {
       animation-name: slide;
@@ -288,8 +313,8 @@
 
       <p>Second Edition: <a href="https://doi.org/10.1007/978-3-031-93922-8">ISBN 978-3-031-93922-8</a> &middot; 2025, 781+XXVI pages, 17 b/w illustrations, 277 in color.</p>
       <p>
-        <a class="btn btn-link" href="https://link.springer.com/book/10.1007/978-3-031-93922-8" role="button">Springer's Booksite</a>
-        <a class="btn btn-link" href="https://www.amazon.com/Traffic-Flow-Dynamics-Models-Simulation/dp/3031939212" role="button">Hard Cover (Amazon)</a>
+        <a class="btn btn-link" href="https://link.springer.com/book/10.1007/978-3-031-93922-8" role="button">Springer's Booksite</a> &middot;
+        <a class="btn btn-link" href="https://www.amazon.com/Traffic-Flow-Dynamics-Models-Simulation/dp/3031939212" role="button">Hard Cover (Amazon)</a> &middot;
         <a class="btn btn-link" href="https://www.altmetric.com/details/30454622" role="button">Altmetrics</a>
       </p>
       <p>First Edition: <a href="https://doi.org/10.1007/978-3-642-32460-4">ISBN 978-3-642-32460-4</a> &middot; 2013, 503 pages, 194 illustrations, 54 in color.</p>
@@ -308,8 +333,8 @@
         The <a href="./res/SampleChapter11.pdf">Chapter 11</a> describing <i>Car-Following Models Based on Driving Strategies</i>
         is a good starting point to learn about microscopic traffic models,
         particularly the <a href="https://en.wikipedia.org/wiki/Intelligent_driver_model">Intelligent Driver Model (IDM)</a> and some enhancements.</p>
-       <a class="btn btn-link" href="./res/TrafficFlowDynamics_TableOfContents_2ndEdition.pdf" role="button">Table of Contents (PDF)</a>
-       <a class="btn btn-link" href="./res/SampleChapter2.pdf" role="button">Chapter 2 (PDF)</a>
+       <a class="btn btn-link" href="./res/TrafficFlowDynamics_TableOfContents_2ndEdition.pdf" role="button">Table of Contents (PDF)</a> &middot;
+       <a class="btn btn-link" href="./res/SampleChapter2.pdf" role="button">Chapter 2 (PDF)</a> &middot;
        <a class="btn btn-link" href="./res/SampleChapter11.pdf" role="button">Chapter 11 (PDF)</a>
     </div>
   </div>
@@ -371,13 +396,14 @@
     <div class="col-sm-8">
       <h2>Errata and Feedback</h2>
       <p>We appreciate your feedback and maintain an up‑to‑date list of errors and typos here.</p>
-      <a class="btn btn-link" href="res/ErrataTrafficFlowDynamics.pdf" role="button">Errata (PDF)</a>
+      <a class="btn btn-link" href="res/ErrataTrafficFlowDynamics_2nd_edition.pdf" role="button">Errata (2nd edition, 2025)</a> &middot;
+      <a class="btn btn-link" href="res/ErrataTrafficFlowDynamics.pdf" role="button">Errata (1st edition, 2013)</a>
     </div>
   </div>
 </div>
 
 <!-- Container -->
-<div id="authors" class="container-fluid text-center">
+<div id="authors" class="container-fluid">
   <h2>The Authors</h2>
   <div class="row">
     <div class="col-sm-8 text-right">
